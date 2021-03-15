@@ -1,4 +1,4 @@
-# Dynamic Web Apps with Rack
+<!-- # Dynamic Web Apps with Rack
 
 ## Learning
 
@@ -25,9 +25,9 @@ class Application
   end
 
 end
-```
+``` -->
 
-Then run it with `rackup config.ru`. You should see something like
+<!-- Then run it with `rackup config.ru`. You should see something like
 
 ```shell
 [2016-07-28 10:09:08] INFO  WEBrick 1.3.1
@@ -43,9 +43,9 @@ If we're using the IDE, we should also see a line like
 
 ```shell
 Starting server at 104.131.138.76:6868
-```
+``` -->
 
-That is the full URL to use. (**Yours will most likely be different!**) So in
+<!-- That is the full URL to use. (**Yours will most likely be different!**) So in
 this case, we'd visit `http://104.131.138.76:6868` in the browser. If we're using
 the IDE, **localhost will not work**.
 
@@ -118,7 +118,7 @@ HTTP response rather than via `puts` statements. Let's give the user a bit more
 information about what numbers they received by writing the numbers to the
 response as well. The `#write` method can be called many times to build up the
 full response. The response isn't sent back to the user until `#finish` is
-called.
+called. -->
 
 ```ruby
 class Application
